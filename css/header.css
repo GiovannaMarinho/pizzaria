@@ -1,0 +1,22 @@
+header {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.header-a {
+  transition: .25s ease;
+}
+
+.header-a:hover {
+  color: #FFF3BF;
+  box-shadow: 0 2px 0 0 currentColor;
+}

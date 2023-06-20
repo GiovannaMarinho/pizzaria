@@ -1,0 +1,26 @@
+.font-header {
+  font: 16px 'Anton';
+}
+.font-title {
+  font: 64px 'Anton';
+}
+.font-1-p {
+  font: 24px 'Inter';
+}
+.font-2-p {
+  font: 16px 'Inter';
+}
+.font-button-card {
+  font: 20px 'Anton';
+}
+.font-card-a {
+  font: 16px 'Anton';
+}
+.font-contact {
+  font: 32px 'Inter';
+  font-weight: 600;
+}
+.font-footer {
+  font: 16px 'Inter';
+  font-weight: bold;
+}

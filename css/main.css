@@ -1,0 +1,40 @@
+main {
+  height: 890px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url('../img/detalhe-main.png') no-repeat;
+  width: 700px;
+  height: 700px;
+  top: 540px;
+}
+
+.bg-content {
+  width: 1160px;
+  height: 660px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-principal {
+  margin-left: 30px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-secundario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
