@@ -102,9 +102,13 @@ textarea:focus {
 @media (max-width: 1162px) {
   .section-bg::before {
     background: none;
+    width: 0;
+    height: 0;
   }
   .section-bg::after {
     background: none;
+    width: 0;
+    height: 0;
   }
 }
 @media (max-width: 800px) {
