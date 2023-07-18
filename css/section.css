@@ -5,20 +5,20 @@
 }
 
 .section-bg::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
-  background: url('../img/detalhe-main.png') no-repeat;
+  background: url("../img/detalhe-main.png") no-repeat;
   width: 500px;
   height: 500px;
   top: 690px;
 }
 
 .section-bg::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
-  background: url('../img/detalhe-section-2.png') no-repeat;
+  background: url("../img/detalhe-section-2.png") no-repeat;
   width: 246px;
   height: 246px;
   right: 60px;
@@ -31,16 +31,19 @@
 }
 
 .section-h1 {
+  font-size: 64px;
   margin-top: 100px;
 }
 
 .section-h2 {
+  font-size: 32px;
   margin-top: 84px;
 }
 
 .input {
   margin-top: 52px;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -86,4 +89,97 @@ textarea:focus {
 
 .button-section {
   margin-top: 52px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1130px) {
+  .section-bg::after {
+    right: 30px;
+    top: 60px;
+  }
+}
+@media (max-width: 1162px) {
+  .section-bg::before {
+    background: none;
+  }
+  .section-bg::after {
+    background: none;
+  }
+}
+@media (max-width: 800px) {
+  .input {
+    margin-top: 52px;
+    gap: 20px;
+  }
+  input {
+    font-size: 20px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+  textarea {
+    width: 500px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 756px) {
+  .input {
+    justify-content: center;
+  }
+  .nome {
+    width: 500px;
+  }
+  .email {
+    width: 500px;
+  }
+}
+@media (max-width: 784px) {
+  .section-h1 {
+    font-size: 48px;
+  }
+  .section-h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 584px) {
+  .section-h1 {
+    font-size: 38px;
+  }
+  .section-h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 20px;
+  }
+  textarea {
+    font-size: 20px;
+  }
+}
+@media (max-width: 554px) {
+  .nome {
+    width: 300px;
+  }
+  .email {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .section-h1 {
+    font-size: 30px;
+  }
+  input {
+    height: 40px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  textarea {
+    font-size: 16px;
+  }
 }

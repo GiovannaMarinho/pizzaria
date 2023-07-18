@@ -11,13 +11,13 @@
   font: 16px 'Inter';
 }
 .font-button-card {
-  font: 20px 'Anton';
+  font-family: 'Anton';
 }
 .font-card-a {
   font: 16px 'Anton';
 }
 .font-contact {
-  font: 32px 'Inter';
+  font-family: 'Inter';
   font-weight: 600;
 }
 .font-footer {
