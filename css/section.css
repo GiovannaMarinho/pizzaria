@@ -9,9 +9,20 @@
   display: block;
   position: absolute;
   background: url('../img/detalhe-main.png') no-repeat;
-  width: 700px;
-  height: 700px;
-  top: 590px;
+  width: 500px;
+  height: 500px;
+  top: 690px;
+}
+
+.section-bg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url('../img/detalhe-section-2.png') no-repeat;
+  width: 246px;
+  height: 246px;
+  right: 60px;
+  top: 60px;
 }
 
 .section-content {

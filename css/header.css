@@ -20,3 +20,12 @@ header {
   color: #FFF3BF;
   box-shadow: 0 2px 0 0 currentColor;
 }
+
+@media (max-width: 414px) {
+  .header-nav {
+    gap: 20px;
+  }
+  .header-a:hover {
+    box-shadow: none;
+  }
+}

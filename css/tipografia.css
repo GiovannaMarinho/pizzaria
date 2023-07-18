@@ -2,10 +2,10 @@
   font: 16px 'Anton';
 }
 .font-title {
-  font: 64px 'Anton';
+  font-family: 'Anton';
 }
 .font-1-p {
-  font: 24px 'Inter';
+  font-family: 'Inter';
 }
 .font-2-p {
   font: 16px 'Inter';
