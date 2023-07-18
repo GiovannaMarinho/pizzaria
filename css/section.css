@@ -169,6 +169,11 @@ textarea:focus {
     width: 300px;
   }
 }
+@media (max-width: 414px) {
+  .section-bg {
+    height: 840px;
+  }
+}
 @media (max-width: 375px) {
   .section-h1 {
     font-size: 30px;
