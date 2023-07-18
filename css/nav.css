@@ -44,8 +44,17 @@
   text-align: center;
 }
 
+.card-h2 {
+  font-size: 20px;
+}
+
+.card-p {
+  font-size: 16px;
+}
+
 .card-a {
   text-decoration: underline;
+  font-size: 16px;
 }
 
 .card-a:hover {
@@ -75,6 +84,18 @@
     font-size: 48px;
   }
 }
+@media (max-width: 555px) {
+  .card-content {
+    height: 380px;
+  }
+  .card-h2 {
+    font-size: 18px;
+  }
+  .card-p {
+    padding: 0px 20px 0px 20px;
+    font-size: 12px;
+  }
+}
 @media (max-width: 584px) {
   .nav-h1 {
     font-size: 32px;
@@ -82,6 +103,6 @@
 }
 @media (max-width: 399px) {
   .nav-h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 }

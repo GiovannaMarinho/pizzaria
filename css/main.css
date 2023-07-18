@@ -89,7 +89,7 @@ main::before {
     font-size: 32px;
   }
   .text-p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 540px) {
@@ -117,9 +117,9 @@ main::before {
     height: 650px;
   }
   .text-h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   .text-p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
