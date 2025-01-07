@@ -1,21 +1,25 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
-
-a {
+html{
+  scroll-behavior: smooth;
+}
+a{
   text-decoration: none;
 }
-
-li {
+li{
   list-style: none;
 }
-
-img {
+img{
   max-width: 100%;
 }
-
-button {
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.btn{
   display: block;
   border: none;
   font-size: 20px;
@@ -24,21 +28,17 @@ button {
   height: 50px;
   cursor: pointer;
 }
-
-button:hover {
+.btn:hover{
   background-color: #A86E18;
   transition: .3s;
 }
-
-/* MEDIA */
-
-@media (max-width: 414px) {
-  button {
+@media (max-width: 414px){
+  button{
     width: 120px;
     height: 40px;
     font-size: 16px;
   }
-  button:hover {
+  button:hover{
     background-color: #5F1415;
   }
 }
